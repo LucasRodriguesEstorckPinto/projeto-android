@@ -114,7 +114,7 @@ main .link {
     color: #063D1E;
 }
 
-main.link:hover {
+main a.link:hover {
     text-decoration: underline;
 }
 
