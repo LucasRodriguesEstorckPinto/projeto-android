@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url('../fonts/IDroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*cabeçalho*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E8E6C3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(42,42,42);
+    background: linear-gradient(0deg, rgba(42,42,42,1) 0%, rgba(40,159,92,1) 87%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+}
+
+header > h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+}
+
+header > h2 {
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: rgb(121, 219, 162);
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+header > nav > a:hover {
+    background-color: #2FA866;
+    padding: 10px;  
+    transition: 500ms;
+}
+
+/*página*/
+
+main {
+    min-width: 400px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.411);
+    padding: 20px;
+    background-color: white; 
+}
+
+main p {
+    text-indent: 30px;
+    word-spacing: 3px;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+main h2#maintitle {
+    margin-top: 0px;
+    font-family: idroid, serif;
+    color: #063D1E;
+    font-weight: lighter;
+}
+
+main .subtitle {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: idroid, serif;
+    color: #063D1E;
+    background: rgb(131,225,173);
+    background: linear-gradient(90deg, rgba(131,225,173,1) 41%, rgba(0,212,255,0) 100%);
+    padding: 2px;
+}
+
+main img {
+    border-radius: 10px;
+}
+
+main img.flex {
+    width: 100%;
+}
+
+main img.normal {
+    display: block;
+    margin: auto;
+}
+
+main .link {
+    text-decoration: none;
+    padding: 2px 4px;
+    background-color: #83E1AD;
+    font-weight: bold;
+    color: #063D1E;
+}
+
+main strong{
+    color: #1a5c37;
+}
+
+main div#video {
+    background-color: #063D1E;
+    padding: 20px;
+    margin: 0px -20px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+main div#video >iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: auto;
+    }
+
+main aside {
+    background-color: #83E1AD;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+main aside > h3 {
+    background-color: #1a5c37;
+    padding: 10px;
+    color: white;
+    margin: -10px -10px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+main aside > ul {
+    columns: 2;
+}
+
+main aside > ul li {
+    margin: 5px;
+}
+
+
+/*rodapé*/
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;    
+    margin: 30px 0px 0px 0px;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+}
+/*https://professorguanabara.github.io/projeto-android/*/
+
+
+
+
