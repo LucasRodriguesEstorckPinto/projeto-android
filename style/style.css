@@ -55,6 +55,7 @@ header > nav > a:hover {
     background-color: #2FA866;
     padding: 10px;  
     transition: 500ms;
+    color: rgb(15, 61, 35);
 }
 
 /*página*/
