@@ -21,6 +21,7 @@ header {
     background: linear-gradient(0deg, rgba(42,42,42,1) 0%, rgba(40,159,92,1) 87%);
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.301);
+    
 }
 
 header > h1{
@@ -61,7 +62,7 @@ header > nav > a:hover {
 /*página*/
 
 main {
-    min-width: 400px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.411);
