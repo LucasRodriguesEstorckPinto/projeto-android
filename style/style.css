@@ -80,6 +80,7 @@ main p {
     line-height: 30px;
     font-size: 17px;
     font-weight: lighter;
+    text-align: justify;
 }
 
 main h2#maintitle {
