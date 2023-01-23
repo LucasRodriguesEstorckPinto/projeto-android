@@ -168,6 +168,7 @@ main aside > h3 {
 
 main aside > ul {
     columns: 2;
+    list-style-type: '\2714';
 }
 
 main aside > ul li {
